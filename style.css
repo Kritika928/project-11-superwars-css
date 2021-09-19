@@ -1,4 +1,47 @@
-.footer{
+.footer
+{
   margin-left : 80px;
   font-size : 18px;
+}
+.superhero
+{ font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.scr1
+{ margin: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+ }
+.realhero
+{
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+  display: grid;
+  justify-content:right;
+}
+#main
+{
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 120px;
+  justify-content: center;
+  display: grid;
+  
+}
+#main > div
+{
+  width: 145px;
+}
+.div1{
+  margin: 10px;
+  padding: 30px;
+  width: 150px;
+  border: 5px solid rgb(204, 204, 204);
+  border-radius: 10px;
+  
+}
+.villain{
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+  display: grid;
+  justify-content:left;
 }
